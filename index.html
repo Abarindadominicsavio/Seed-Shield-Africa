@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeedShield Africa | Agri-Biotech & Eco-Tourism</title>
+    <style>
+        :root {
+            --primary: #2e5a36;
+            --secondary: #d4a373;
+            --accent: #f4f1de;
+            --dark: #2b2d42;
+            --light: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #faf9f6; color: var(--dark); line-height: 1.6; }
+        header { background: linear-gradient(rgba(46, 90, 54, 0.85), rgba(43, 45, 66, 0.85)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover; color: var(--light); padding: 100px 20px; text-align: center; }
+        header h1 { font-size: 3rem; margin-bottom: 15px; color: #fff; }
+        header p { font-size: 1.25rem; max-width: 800px; margin: 0 auto 30px; color: #e9edc9; }
+        .btn { background-color: var(--secondary); color: var(--dark); padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: 0.3s; display: inline-block; }
+        .btn:hover { background-color: #bc6c25; color: #fff; }
+        nav { background-color: var(--primary); padding: 15px 0; position: sticky; top: 0; z-index: 1000; text-align: center; }
+        nav a { color: var(--light); text-decoration: none; margin: 0 20px; font-weight: 600; font-size: 1.1rem; transition: color 0.3s; }
+        nav a:hover { color: var(--secondary); }
+        .container { max-width: 1100px; margin: 50px auto; padding: 0 20px; }
+        section { margin-bottom: 60px; }
+        h2 { font-size: 2.2rem; color: var(--primary); margin-bottom: 20px; text-align: center; position: relative; }
+        h2::after { content: ''; display: block; width: 60px; height: 4px; background-color: var(--secondary); margin: 10px auto 0; border-radius: 2px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: var(--light); padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 5px solid var(--primary); }
+        .card h3 { color: var(--primary); margin-bottom: 15px; font-size: 1.3rem; }
+        .kpi-table { width: 100%; border-collapse: collapse; margin-top: 30px; background: var(--light); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .kpi-table th, .kpi-table td { padding: 15px; text-align: left; }
+        .kpi-table th { background-color: var(--primary); color: var(--light); }
+        .kpi-table td { padding: 15px; border-bottom: 1px solid #eee; }
+        footer { background-color: var(--dark); color: var(--light); text-align: center; padding: 40px 20px; margin-top: 80px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#solutions">Solutions & Pillars</a>
+        <a href="#impact">Impact & Metrics</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>SeedShield Africa</h1>
+        <p>An Integrated Agri-Biotech & Eco-Tourism Engine for Climate Resilience and Food Sovereignty in Western Uganda[cite: 6].</p>
+        <a href="#solutions" class="btn">Explore Our Model</a>
+    </header>
+
+    <div class="container">
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>The Challenge & Vision</h2>
+            <p style="text-align: center; max-width: 800px; margin: 20px auto; font-size: 1.1rem;">
+                Sub-Saharan Africa’s agricultural economies face severe vulnerabilities and crop failures driven by compounding climate shocks, the dominance of fragile monocultures, and progressive environmental degradation. SeedShield Africa bridges decentralized indigenous seed conservation, quantitative crop phenotyping, climate-smart intercropping packages, solar driers, and immersive eco-agritourism to restore soil health, prevent post-harvest loss, and secure regional food sovereignty[cite: 6].
+            </p>
+        </section>
+
+        <!-- SOLUTIONS SECTION -->
+        <section id="solutions">
+            <h2>Our Core Pillars</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Decentralized Village Seed Vaults</h3>
+                    <p>Establishing community-led seed banks using low-cost PICS bags and silica gel desiccation (8-12% moisture control) across Western Uganda (Ibanda, Kabarole, Rubirizi) to safeguard traditional landraces[cite: 6].</p>
+                </div>
+                <div class="card">
+                    <h3>2. Solar Driers & Post-Harvest Tech</h3>
+                    <p>Deploying advanced solar driers and hermetic storage technologies to smallholder farming cooperatives, drastically reducing post-harvest losses and securing grain quality.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Quantitative Phenotyping & MET</h3>
+                    <p>Partnering with Makerere University (MAKCSID) and regional ZARDIs to conduct multi-environment trials, biometric tracking in R/Python, and genetic gain evaluations[cite: 6].</p>
+                </div>
+                <div class="card">
+                    <h3>4. Eco-Agritourism & Heritage</h3>
+                    <p>Monetizing biodiversity conservation through experiential eco-agritourism hubs featuring native plant walking trails, seed vault tours, and traditional heritage culinary dining[cite: 6].</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT & METRICS SECTION -->
+        <section id="impact">
+            <h2>Key Performance Indicators (KPIs)</h2>
+            <table class="kpi-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Key Performance Indicator (KPI)</th>
+                        <th>Target / Milestone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Conservation</strong></td>
+                        <td>Indigenous Landraces & Medicinal Trees Preserved[cite: 6]</td>
+                        <td>15
